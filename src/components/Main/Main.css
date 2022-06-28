@@ -1,11 +1,34 @@
 .main-container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .image-slider-container {
+        display: grid;
+        grid-template-columns: repeat(12,minmax(0,1fr));
         gap: 1rem;
-        display: flex;
+        margin-bottom: 1.5rem;
+}
+
+.left-image-container {
+    grid-column: span 7/span 7;
+}
+
+.left-image-container img {
+    max-width: 100%;
+    height: 21.5rem;
+    object-fit:cover;
+}
+.right-image-container {
+    grid-column: span 5/span 5;
+}
+
+.right-image-container {
+    max-width: 100%;
+}
+
+.right-image-container img {
+    height: 21.5rem;
 }
