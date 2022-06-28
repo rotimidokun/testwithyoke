@@ -1,0 +1,30 @@
+.subheader-stroke-icon {
+    opacity: 0.4;
+    margin-left: 3px;
+    margin-top: 6px;
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.submenu-item-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.submenu-item-container div:nth-child(1) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.submenu-item-container a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}

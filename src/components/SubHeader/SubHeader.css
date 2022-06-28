@@ -1,0 +1,67 @@
+.subheader-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    display: flex;
+    align-items: center;
+}
+
+.subhear-container-center-menu {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.subheader-categories-menu {
+    margin-right: 2rem;
+    border-radius: .375rem;
+    border: 1px solid #e7ecf0;
+    background: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.subheader-nav {
+    display: flex;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.hamburger-menu {
+    margin-right: .75rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.subheader-address-selector {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subheader-delivery-text {
+    padding-left: .25rem;
+}
+
+.subheader-address-text {
+    color: #02B290;
+    font-weight: 600;
+    padding-left: .25rem;
+}
+
+.subheader-dropdown-icon {
+    opacity: 0.4;
+    padding-left: .375rem;
+    padding-top: 0.2rem;
+}
